@@ -5,7 +5,6 @@ import { Timeline } from './components/Timeline'
 import Contact from './components/Contact'
 import Projects from './components/Projects'
 import LocomotiveScroll from 'locomotive-scroll';
-import Paragraph from './components/Para'
 
 
 
