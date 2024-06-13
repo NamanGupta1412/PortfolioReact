@@ -14,7 +14,7 @@ function App() {
   const locomotiveScroll = new LocomotiveScroll();
 
   return (
-    <div className='bg-black text-black font-mono overflow-hidden'>
+    <div className='bg-white text-black font-mono overflow-hidden'>
     <Hero />
     <About />
     <Projects />
