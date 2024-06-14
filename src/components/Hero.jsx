@@ -10,7 +10,7 @@ import Resume from './Naman_Resume.pdf';
 
 function Hero() {
   return (
-    <div data-scroll data-scroll-speed='-0.8' className=' z-0 bg-gray-100' id='Home'>
+    <div data-scroll data-scroll-speed='-0.8' className=' z-0 bg-gray-100 cursor-default' id='Home'>
       <section className="hero w-full relative">
       <Nav />
       <div className='flex gap-11 sm:flex-row flex-col items-center justify-center sm:pt-0 pt-[70%]'>

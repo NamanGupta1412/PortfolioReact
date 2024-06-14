@@ -35,7 +35,7 @@ export default function Contact() {
   };
   return (
     <div className='text-white pb-[5%] bg-gray-600 ' id='Contact'>
-      <div className='w-full  flex justify-around text-black px-[5%] pt-11'>
+      <div className='w-full  flex sm:flex-row flex-col justify-around text-black px-[5%] pt-11'>
         <div className="w-full max-w-md p-6 bg-white text-black last:rounded-lg shadow-lg">
           <h2 className="text-2xl font-bold mb-4">Get in Touch</h2>
           <form className="space-y-4" onSubmit={onSubmit}>
@@ -84,9 +84,9 @@ export default function Contact() {
           </form>
           <span>{result}</span>
         </div>
-        <div className='flex justify-center flex-col items-center w-[40%] h-[500px]'>
+        <div className='mt-5 flex justify-center flex-col items-center sm:w-[40%] h-[500px]'>
           <img src={pic} alt="Profile Picture" className="h-[300px] w-[300px] mb-3"></img>
-          <p className='text-2xl text-justify text-white'>Hello! I'm Naman Gupta, a passionate Front-End Developer. Let's create something amazing together. Feel free to reach out!</p>
+          <p className='sm:text-2xl text-justify text-white'>Hello! I'm Naman Gupta, a passionate Front-End Developer. Let's create something amazing together. Feel free to reach out!</p>
           <div className="social-icons flex gap-10 text-5xl justify-center mt-11 text-white">
             <a href='https://github.com/NamanGupta1412'><SiGithub /></a>
             <a href='mailto:namanguptapubg@gmail.com'><SiGmail /></a>

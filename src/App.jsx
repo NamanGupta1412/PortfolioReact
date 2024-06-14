@@ -5,6 +5,7 @@ import { Timeline } from './components/Timeline'
 import Contact from './components/Contact'
 import Projects from './components/Projects'
 import LocomotiveScroll from 'locomotive-scroll';
+import AniCursor from './components/AnimatedCursor'
 
 
 
@@ -15,6 +16,7 @@ function App() {
 
   return (
     <div className='bg-white text-black font-mono overflow-hidden'>
+    <AniCursor />
     <Hero />
     <About />
     <Projects />
