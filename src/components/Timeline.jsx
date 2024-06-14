@@ -1,6 +1,9 @@
 import { useMotionValue, motion, useSpring, useTransform } from "framer-motion";
 import React, { useRef } from "react";
-import { FiArrowRight } from "react-icons/fi";
+import tenth from "../Image/10th.jpg";
+import twelfth from "../Image/12th.jpg";
+import intern from "../Image/Intern.jpg";
+import Btech from "../Image/B.tech.png";
 
 export const Timeline = () => {
 
@@ -11,33 +14,28 @@ export const Timeline = () => {
         <Link
           heading="E-Commerece Developer"
           subheading="Unique Power Technology(EQUAL)"
-          imgSrc="/imgs/random/11.jpg"
-          href="#"
+          imgSrc={intern}
+          href="https://drive.google.com/file/d/1365VP2p1xplwGw5pq7tfYDBMYDiy7YZk/view?usp=drive_link"
+       target="_blank"
         />
         <Link
           heading="B.Tech(ME)"
           subheading="Jaipur Engineering College and Research Center"
-          imgSrc="/imgs/random/6.jpg" //certificate
-          href="#" //drive link
+          imgSrc={Btech}
+          href="https://drive.google.com/file/d/1fUIi8Es5A28_4yESlTozLP9bePAcnn6U/view?usp=drive_link"
         />
         <Link
           heading="Class-XII"
           subheading="MPS International"
-          imgSrc="/imgs/random/4.jpg"
-          href="#"
+          imgSrc={twelfth}
+          href="https://drive.google.com/file/d/13hvxYjFqpvmC5J8gcXCCMCff8kAxlLa6/view?usp=drive_link"
         />
         <Link
           heading="Class-X"
           subheading="MPS International"
-          imgSrc="/imgs/random/5.jpg"
-          href="#"
+          imgSrc={tenth}
+          href="https://drive.google.com/file/d/1apiGeOfzFP66N3h8oui1AukOtBvhK1NH/view?usp=drive_link"
         />
-        {/* <Link
-          heading="Fun"
-          subheading="Incase you're bored"
-          imgSrc="/imgs/random/10.jpg"
-          href="#"
-        /> */}
       </div>
     </section>
   );

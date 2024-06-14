@@ -6,7 +6,7 @@ export const Nav = () => {
   return (
     <div className="fixed w-full flex items-center justify-between px-9 bg-transparent z-[999]">
     <div className="pt-5 uppercase text-base">
-      Naman Gupta
+      Naman
     </div>
     <div className="pt-5">
       <SlideTabs />
