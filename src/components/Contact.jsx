@@ -27,9 +27,8 @@ export default function Contact() {
     }
   };
     return (
-        <div className='text-black' id='Contact' data-scroll data-scroll-speed='0.2' data-scroll-section>
-        <div className=' text-black text-[40px] flex justify-center'>CONTACT ME</div>
-        <div className='w-full  flex justify-around text-black p-[5%]'>
+        <div className='text-black mb-[5%]' id='Contact'>
+        <div className='w-full  flex justify-around text-black px-[5%]'>
       <div className="w-full max-w-md p-6 bg-gray-900 text-gray-200 rounded-lg shadow-lg">
         <h2 className="text-2xl font-bold mb-4">Get in Touch</h2>
         <form className="space-y-4" onSubmit={onSubmit}>

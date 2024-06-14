@@ -2,6 +2,7 @@ import React, { useRef } from 'react'
 import { motion, useScroll, useTransform } from "framer-motion";
 import Skills from "./Skills";
 import Paragraph from './Para';
+import Heading from './Heading';
 function About() {
 
 
@@ -16,12 +17,9 @@ function About() {
 
 
   return (
-    <div data-scroll data-scroll-speed='0.2' data-scroll-section className='w-full pt-[15%] sm:pt-[8%] z-10 bg-white text-black' id='About'>
-      <div
-        className='pl-9 pr-9 text-5xl flex justify-center items-center w-full text-center'>
-        About Me
-      </div>
-        <Skills />
+    <div data-scroll data-scroll-speed='0.2' data-scroll-section className='w-full pt-[15%] sm:pt-[10%] z-10 bg-white text-black mb-11' id='About'>
+      <Heading />
+      <Skills />
       <section className="about relative w-full flex justify-center">
         <motion.p
           ref={container}

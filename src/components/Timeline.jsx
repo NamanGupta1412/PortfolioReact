@@ -3,16 +3,10 @@ import React, { useRef } from "react";
 import { FiArrowRight } from "react-icons/fi";
 
 export const Timeline = () => {
+
+
   return (
-    <section data-scroll data-scroll-speed='0.2' data-scroll-section className="w-full h-screen flex flex-col items-center justify-center bg-white]" id="Timeline">
-    <motion.div
-          whileHover={{ scale: 1.2 }}
-          whileTap={{ scale: 1.1 }}
-          drag="x"
-          dragConstraints={{ left: -100, right: 100 }}
-          className='mb-[7rem] pl-9 pr-9 text-5xl flex justify-center items-center w-full text-center'>
-          Journey
-          </motion.div>
+    <section data-scroll data-scroll-speed='0.2' data-scroll-section className="w-full h-screen flex flex-col items-center justify-center bg-white mt-[-5%]" id="Timeline">
       <div className="w-[80%]">
         <Link
           heading="E-Commerece Developer"
@@ -149,7 +143,7 @@ const Link = ({ heading, imgSrc, subheading, href }) => {
         transition={{ type: "spring" }}
         className="relative z-10 p-4"
       >
-       
+
       </motion.div>
     </motion.a>
   );

@@ -8,8 +8,7 @@ import snake from '../Image/snakerunner.png';
 
 function Projects() {
   return (
-    <div data-scroll data-scroll-speed='0.2' data-scroll-section className='w-full flex flex-col gap-11 justify-center items-center bg-white sm:pt-0 mt-[-90px]' id='Project'>
-      <div className="flex items-center mb-[10%] sm:mb-[5%] text-5xl">PROJECT</div>
+    <div data-scroll data-scroll-speed='0.2' data-scroll-section className='w-full flex flex-col gap-11 justify-center items-center bg-white sm:pt-[10%] mt-[-90px]' id='Project'>
       <div className='flex justify-evenly w-full sm:flex-row flex-col'>
         <div>
           <Example name={Docs} />

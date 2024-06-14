@@ -1,6 +1,6 @@
 import React, { useRef, useState } from "react";
 import { motion } from "framer-motion";
-import {Link, link} from 'react-scroll';
+import {Link,} from 'react-scroll';
 
 export const Nav = () => {
   return (
@@ -62,7 +62,7 @@ const SlideTabs = () => {
       spy={true} 
       smooth={true} 
       offset={-250} 
-      duration={500} >Timeline</Link>
+      duration={500} >Journey</Link>
       </Tab>
       <Tab setPosition={setPosition}>
       <Link 

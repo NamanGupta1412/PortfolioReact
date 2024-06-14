@@ -28,7 +28,7 @@ import { useAnimate } from "framer-motion";
 
 
   return (
-    <div className="bg-white px-4 py-12">
+    <div className="bg-white px-4 ">
       <motion.div 
       ref={container}
         style={{ opacity }}
@@ -41,7 +41,7 @@ import { useAnimate } from "framer-motion";
 
 const ClipPathLinks = (props) => {
   return (
-    <div className=" divide-y divide-neutral-900 border border-neutral-900 mt-[5%]">
+    <div className=" divide-y divide-neutral-900 border border-neutral-900">
       <div className="grid grid-cols-2 divide-x divide-neutral-900">
         <Div Icon={SiReact} />
         <Div Icon={SiJavascript} />

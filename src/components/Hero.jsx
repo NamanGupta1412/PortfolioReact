@@ -14,7 +14,7 @@ function Hero() {
       <section className="hero w-full relative">
       <Nav />
       <div className='flex gap-11 sm:flex-row flex-col items-center justify-center sm:pt-0 pt-[70%]'>
-      <div className='flex sm:flex-col gap-10 sm:justify-center sm:pl-[4rem] sm:pr-0 pr-4 text-2xl'>
+      <div className='flex sm:flex-col gap-10 sm:justify-center sm:pl-[0%] sm:pr-0  text-2xl'>
       <a href='https://github.com/NamanGupta1412'><SiGithub /></a>
       <a href='https://x.com/NamanGupta_NG'><FaSquareXTwitter /></a>
       <a href='https://www.linkedin.com/in/naman-gupta-b7bbb6218/'><SiLinkedin /></a>
